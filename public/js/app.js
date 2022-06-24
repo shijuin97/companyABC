@@ -2020,7 +2020,7 @@ __webpack_require__.r(__webpack_exports__);
         });
       }
     },
-    removeBabyImage: function removeBabyImage() {
+    removeImage: function removeImage() {
       this.imagePreview = null;
       this.showPreview = false;
       this.image = null;
@@ -22977,7 +22977,7 @@ var render = function () {
                           staticClass: "btn",
                           on: {
                             click: function ($event) {
-                              return _vm.removeBabyImage()
+                              return _vm.removeImage()
                             },
                           },
                         },
