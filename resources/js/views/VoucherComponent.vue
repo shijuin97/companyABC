@@ -26,7 +26,7 @@
               <div class="input-styling">
                 <label
                   class="text-gray-900 font-weight-bold m-0"
-                  for="baby_name"
+                  for="name"
                   >Upload a picture
                 </label>
                 <div id="preview">
