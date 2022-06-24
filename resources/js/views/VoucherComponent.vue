@@ -36,7 +36,7 @@
                     v-show="showPreview"
                   />
                   <button
-                    @click="removeBabyImage()"
+                    @click="removeImage()"
                     class="btn"
                     v-show="showPreview"
                   >
@@ -115,7 +115,7 @@ export default {
         );
       }
     },
-    removeBabyImage() {
+    removeImage() {
       this.imagePreview = null;
       this.showPreview = false;
       this.image = null;
